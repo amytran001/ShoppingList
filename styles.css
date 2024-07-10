@@ -1,0 +1,52 @@
+/*styles.css*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: plum;
+    background-image: linear-gradient( to the right, pink, pink);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+}
+input:focus, button:focus {
+    outline: none;
+    border-color: cornflowerblue;
+    background-color: rgb(228, 101, 160);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: rgba(214, 14, 138, 0.133);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+li:hover {
+    background-color: #d1439b;
+}
+li.selected{
+    background-color: #d691bc;
+}
+
+
+
+
+
+
+
+
